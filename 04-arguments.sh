@@ -4,7 +4,7 @@
 person1=$1
 person2=$2
 
-echo "$person1:: hi likki how are you?"
+echo "$person1:: hi person2 how are you?"
 echo "$person2:: I am fine, how are you?"
 echo "$person1:: I am also fine, thank you!"
 echo "$person2:: I am going out now cnn you join with me!"
