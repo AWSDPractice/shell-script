@@ -1,10 +1,10 @@
 
 #!/bin/bash
 
-Number=$1
-Number=$2
+Number1=$1
+Number2=$2
 
-TIMESTAMP=$(date +%s) # Get the current timestamp in seconds since epoch
+TIMESTAMP=$(date) # Get the current timestamp in seconds since epoch
 # The date command with +%s format returns the number of seconds since 1970-01-01 00:00:00 UTC
 # This is useful for measuring time intervals or
 echo"script executed at: $TIMESTAMP"
