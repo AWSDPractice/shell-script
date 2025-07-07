@@ -34,6 +34,13 @@ echo "Bash script base name: $(basename "$0")"
 echo "Bash script full path: $(realpath "$0")"
 echo "cript execution time: $(date +%s)"
 # The above variables can be used in scripts to access various system and script-related information.
+sleep 60 &
+# The above command runs a sleep command in the background for 60 seconds
+# This allows the script to continue executing without waiting for the sleep command to complete
+# The ampersand (&) at the end of the command indicates that it should be run in the background
+# This is useful for running long-running commands or processes without blocking the script execution
+# The script can continue to execute other commands while the sleep command runs in the background
+# After the sleep command completes, the script will continue to execute any remaining commands
 echo "s id of last command background command: $!"
 # The $! variable holds the process ID of the last command that was run in the background
 # This can be useful for tracking background processes or managing them later in the script
